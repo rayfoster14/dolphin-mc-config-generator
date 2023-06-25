@@ -4,7 +4,9 @@ This script will generate INI files for Dolphin, to allow specific memory card f
 This script assumes the files are stored as their GameID names. A INI file will be generated off of this informaiton.
 
 Example:
+
 `GWLP6L00-1.EUR.raw` -> `GWLP6L.ini`      -- what we want
+
 `MemoryCardFile.raw` -> `Memory.ini`      -- will be generated but is pointless
 
 The script will look through one directory full of .raw files. It will not look for nested files.
